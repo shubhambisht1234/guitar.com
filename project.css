@@ -1,0 +1,197 @@
+header{
+	background-color: black;
+	color: white;
+
+}
+
+
+
+#logo{
+	background-color: rgb(255, 0, 0);
+
+
+}
+ul li{
+	display: inline-block;
+}
+
+
+
+.nav-link{
+		color: white;
+	}
+.nav-link:hover{
+		background-color: red;
+		color: white;
+	}
+
+span{
+	color: white;
+	font-size: 30px;
+	display: none;
+	cursor: pointer;
+
+}
+
+@media screen and (max-width: 995px)
+{
+
+
+		ul li{
+		display: block;
+	}
+		span{
+		display: block;
+	}
+	#change{
+		display: none;
+	}
+	 
+}
+
+
+.banner{
+	margin-top: 2px;
+	background-image: url(pexels-pixabay-2109221.jpg);
+	background-size: cover;
+	height: 50vh;
+	position: relative;
+	overflow: hidden;
+	
+}
+
+
+.style{
+position: absolute;
+
+right: 0%;
+bottom: -100%;
+color: rgb(255,0,0);
+background-color: rgba(0, 0, 0,0.5);
+height: 100%;
+width: 100%;
+transition: 0.7s;
+}
+
+	#text{
+		float: right;
+		margin: 80px;
+
+
+	}
+
+
+
+@media screen and (max-width: 995px){
+	#text{ margin: 40px;
+	 }
+	 p{
+	 	padding-top: 10px;
+
+	 }
+}
+
+.banner:hover .style{
+bottom: 0%;
+}
+
+#head{
+	padding: 10px;
+	height: 130px;
+	background-color: rgba(174, 174, 174,0.6);
+}
+#size{
+	height: 100px;
+	width: 100px;
+}
+#Media:after{
+	content: "";
+	display: block;
+	background-color: red;
+	height: 3px;
+	width: 70px;
+	margin: 3px auto;
+
+}
+#Media2:before{
+	content: "";
+
+	display: block;
+	background-color: red;
+	height: 3px;
+	width: 90px;
+	margin: 3px auto;
+
+}
+.form{
+	background-color: rgba(174, 174, 174,0.6);
+	box-shadow: 0px 0px 30px 2px black;
+}
+#futter{
+	margin-top: 50px;
+	background-color: rgb(101, 101, 101);
+	color: black
+}
+#word{
+
+	margin: auto;
+	
+}
+.bar{
+	background-color: black;
+}
+.shu{
+	height: 30px;
+	width: 30px;
+	
+}
+.card{
+	background-color: rgba(206, 206, 204);
+}
+#in:hover{
+
+transition: 0.9s;
+background-color: rgba(206, 206, 204);
+}
+
+.white{
+	color: white;
+}
+
+
+.redd{
+	color: red;
+}
+.red{
+	background-color: red;
+}
+	.box{
+		margin: 10px auto;
+		
+		position: relative;
+		width: 50%;
+		overflow: hidden;
+		
+	}
+	.box img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.text{
+		padding-top: 50px;
+		top: 0;
+		left: -100%;
+	    width: 100%;
+		background-color: rgba(173, 182, 198,0.3);
+		position: absolute;
+		height: 100%;
+		color: white;
+		transition: 0.7s;
+	}
+
+	.box:hover .text{
+		left: 0%;
+
+
+	}
